@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+
+has_parent:
+  name: Has Parent
+  parent_id: 1
+
+also_has_parent:
+  name: Second Child
+  parent_id: 1
+
+third_child:
+  name: Third Child
+  parent_id: 1
